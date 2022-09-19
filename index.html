@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MABE Japan</title>
+
+    <!-- 
+        - favicon
+     -->
+    <!-- <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" /> -->
+
+    <!-- 
+        - custom css link
+      -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- 
+        - google font link
+       -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700&display=swap?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body id="top">
+    <!-- 
+        - Header
+     -->
+
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo">MABE Japan</a>
+
+        <nav class="navbar container" data-navbar>
+          <ul class="navbar-list">
+            <li>
+              <a href="#home" class="navbar-link" data-nav-link>ホーム</a>
+            </li>
+
+            <li>
+              <a href="#about" class="navbar-link" data-nav-link
+                >MABE Japanとは</a
+              >
+            </li>
+
+            <li>
+              <a href="#comment" class="navbar-link" data-nav-link
+                >メッセージ</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <button
+          class="nav-toggle-btn"
+          aria-label="Toggle menu"
+          data-nav-toggler
+        >
+          <ion-icon name="menu-outline" class="open"></ion-icon>
+          <ion-icon name="close-outline" class="close"></ion-icon>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- 
+           - HERO
+         -->
+        <section class="section hero" id="home" aria-label="hero">
+          <div class="container">
+            <div class="hero-content">
+              <p class="hero-subtitle top">MABE Japan</p>
+              <p class="hero-title">Premiun Value for Our Clients</p>
+              <p class="hero-text">
+                世界に広がるプライベート資産の投資機会拡大によって、お客様の資産運用の質向上に貢献します。
+              </p>
+            </div>
+
+            <figure class="hero-banner">
+              <img
+                src="./assets/images/hero-banner6.jpg"
+                width="720"
+                height="673"
+                alt="hero banner"
+                class="w-100"
+              />
+            </figure>
+          </div>
+        </section>
+
+        <!-- 
+              - About
+            -->
+
+        <section class="section about" id="about" aria-label="about">
+          <div class="container">
+            <div
+              class="about-banner img-holder"
+              style="--width: 720; --height: 960"
+            >
+              <img
+                src="./assets/images/about-banner3.jpg"
+                width="720"
+                height="960"
+                loading="lazy"
+                alt="about banner"
+                class="img-cover"
+              />
+            </div>
+
+            <div class="about-content">
+              <h2 class="h2 section-title">About Us</h2>
+              <p class="section-text">
+                プライベートアセットを得意とする豪MAフィナンシャル、米ブルーエレファント、金融系デジタルプラットフォーマーである日Keyaki
+                Capitalとパートナーを組み、MABE JAPANが始動しました。
+              </p>
+
+              <h3 class="h3">Who We Are</h3>
+
+              <p class="section-text">
+                豪州MAフィナンシャル、米国ブルーエレファント、そして日Keyaki
+                Capitalがパートナーシップを組み、世界中からプライベート資産戦略を発掘し、国内投資家へお届けします。
+                長引く低金利環境、不透明なインフレによって資産運用に悩まされる中、海外への投資機会、そして、インカム等が期待できるプライベート資産への長期・分散投資は、お客様の資産運用の成果を安定化することができると考えます。
+              </p>
+
+              <h3 class="h3">Our Service</h3>
+
+              <ul class="about-list">
+                <li class="about-item">
+                  <ion-icon
+                    name="checkmark-circle"
+                    aria-hidden="true"
+                  ></ion-icon>
+
+                  <p class="section-text">プライベート資産戦略の提供</p>
+                </li>
+
+                <li class="about-item">
+                  <ion-icon
+                    name="checkmark-circle"
+                    aria-hidden="true"
+                  ></ion-icon>
+
+                  <p class="section-text">資産運用全般に関する情報提供</p>
+                </li>
+              </ul>
+
+              <p class="section-text">
+                弊社は、機関投資家や富裕層等のお客様に対し、デジタルプラットフォームに加え、ＩＦＡや金融機関を経由して、ベストインクラスの商品提供を行います。
+              </p>
+
+              <h3 class="h3">Our Mission</h3>
+
+              <p class="section-text">
+                世界に広がるプライベート資産の投資機会拡大によって、お客様の資産運用の質向上に貢献します
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+           - Comments
+         -->
+
+         <div class="section section comment" id="comment" aria-label="comment">
+          <div class="container">
+            <p class="comment-title">Message</p>
+            <div class="testimonial-container">
+              <div class="progress-bar"></div>
+                  
+              
+              <p class="testimonial">
+                プライベートクレジット投資に強みを持つMAFG、BECM両社とのパートナーシップによるMABE Japanの設立は、「これまで個人に公開されていなかった世界の優良なプライベートアセットへの投資機会と情報提供を推進し、充実感と高揚感に満ちた投資体験を提供する」という当社の目標への大きな一歩となります。
+              </p>
+              <div class="user">
+                  <img src="./assets/images/Taiki_Kimura.JPG" alt="user" class="user-image">
+                  <div class="user-details">
+                      <h4 class="username">木村　大樹</h4>
+                      <p class="role">Keyaki Capital CEO</p>
+                  </div>
+              </div>
+          </div>
+          </div>
+         </div>
+
+        <!-- 
+           - CONCEPT
+         -->
+        <!-- <section class="section concept" id="concept" aria-label="concept">
+          <div class="container">
+            <p class="concept-title">CONCEPT</p>
+            <figure class="concept-banner">
+              <img src="./assets/images/concept-banner.png" width="720" height="673" alt="concept banner" class="w-100">
+            </figure>
+            <div class="concept-content">
+              <p class="concept-subtitle">これまでにないポジティブな終活を</p>
+              <h1 class="h1 concept-title">最幸の最期を迎えるために。</h1>
+              <p class="concept-text">
+                物語には必ず終わりがきます。人生にも。</br>
+                あなたの物語はどのように終わるのでしょうか？</br>
+                あなたはどのように語られたいでしょうか？</br>
+                残された者に迷惑をかけないための準備だけが終活ではありません。<br>
+                最幸の終わりをデザインすることが終活です。
+              </p>
+            </div>
+          </div>
+         </section> -->
+
+        <!-- 
+            - FOOTER
+          -->
+
+        <footer class="footer">
+          <div class="container">
+            <p class="copyright">
+              &copy; 2022 All Rights Reserved by MABE Japan
+            </p>
+          </div>
+        </footer>
+
+        <!-- 
+                  - back to top
+                -->
+        <a
+          href="#top"
+          aria-label="backto top"
+          data-back-to-top-btn
+          class="back-top-btn"
+        >
+          <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+        </a>
+      </article>
+    </main>
+
+    <!-- 
+        - custom js link
+     -->
+    <script src="./assets/js/script.js" defer></script>
+
+    <!-- 
+        - ionicon link
+      -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
